@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contain {
+    margin: 10px;
+    
+}
+.content {
+    margin: 40px auto;
+    text-align: center;
+}
+label {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+input {
+    margin-left: 10px;
+}
+
+
+.btn {
+    width: 80px;
+
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    margin: 40px auto;
+    text-align: center;
+}
+
+th {
+    background-color: #b3aeae;
+}
+.stt,
+.hoten,
+.toan,
+.ly,
+.hoa,
+.trungbinh {
+    width: 140px;
+    text-align: center;
+}
+.good {
+    background-color: red;
+}
+
+.bad {
+    background-color: blueviolet;
+}
+.task {
+    /* display:inline-block; */
+    margin: 20px auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#cal { background-color: rgb(214, 91, 91);}
+#markgood {background-color: chartreuse;}
+#markbad {background-color: cornflowerblue;}
+#sort {background-color: rgb(81, 219, 81);}
+.btn-task {
+    padding: 4px;
+    margin-left: 10px;
+    width: 200px;
+    margin: 10px auto;
+}
+.note {
+    width: fit-content;
+    margin: 0 auto 10px auto;
+    border: black solid 1px;
+    padding: 4px;
+    text-align: center;
+}
+@media only screen and ( min-width: 768px) {
+    .tittle {
+        margin: 20px auto;
+    }
+
+    label {
+        display: inline-block;
+        width: 40%;
+        margin: 10px 0px;
+    }
+
+    .btn-task {
+        width: 35%;
+        margin-left: 20px;
+    }
+    
+    input {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    label {
+        display: inline-block;
+        width: 20%;
+    }
+
+    .submit {
+        display: block;
+        width: 80px;
+        margin: 20px auto;
+    }
+    .task {
+        margin-bottom: 180px;
+    }
+}

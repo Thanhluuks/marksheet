@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asm 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="content">
+            <h1 class="tittle">Class Marksheet</h1>
+                <form action="">
+                    <label for="name">
+                        Họ và tên:<input type="text" id="name">
+                    </label>
+                    <label for="math">
+                        Điểm toán: <input type="text" id="math">
+                    </label>
+                    <label for="physical">
+                        Điểm lý: <input type="text" id="physical">
+                    </label>
+                    <label for="chemistry">
+                        Điểm hóa: <input type="text" id="chemistry">
+                    </label>
+                    <label for="submit" class="submit">
+                        <button class="btn" type="button" onclick="mySubmit()">Nhập</button>
+                    </label>
+                </form>
+        </div>
+        <table id="marksheet">
+            <tr>
+                <th class="stt">STT</th>
+                <th class="hoten">Họ và tên</th>
+                <th class="toan">Toán</th>
+                <th class="ly">Lý</th>
+                <th class="hoa">Hóa</th>
+                <th class="trungbinh">Trung bình</th>
+            </tr>
+            <!-- <tr>
+                <td class="stt">01</td>
+                <td class="hoten">ha an</td>
+                <td class="toan">9</td>
+                <td class="ly">10</td>
+                <td class="hoa">10</td>
+                <td class="trungbinh">9.5</td>
+            </tr> -->
+        </table>
+        <div class="task">
+            <button class="btn-task" id="cal" type="button" onclick="myCal()">Tính điểm trung bình</button>
+            <button class="btn-task" id="markgood" type="button" onclick="myGood()">Xác định học sinh giỏi</button>
+            <button class="btn-task" id="markbad" type="button" onclick="myBad()">Xác định học sinh yếu</button>
+            <button class="btn-task" id="sort" type="button" onclick="mySort()">Sắp xếp cao đến thấp</button>
+        </div>
+        <div class="note">
+            <p>* Học sinh đạt loại giỏi là học sinh có điểm số trung bình lớn hơn hoặc bằng 8.0</p>
+            <p>* Học sinh đạt loại yếu là học sinh có điểm số trung bình nhỏ hơn hoặc bằng 4.0</p>
+        </div>
+    </div>
+    <script src="./javascript.js"></script> 
+</body>
+</html>
